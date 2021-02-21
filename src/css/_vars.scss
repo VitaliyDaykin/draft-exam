@@ -1,0 +1,39 @@
+$defaultFont: "PT Sans";
+$secondaryFont: "Proxima Nova";
+
+$defaultPath: "../fonts/pt-sans-v12-latin-regular";
+$defaultPathBold: "../fonts/pt-sans-v12-latin-700";
+$defaultPathItalik: "../fonts/pt-sans-v12-latin-italic";
+$secondaryPathBold: "../fonts/ProximaNova-Bold";
+$secondaryPathSemibold: "../fonts/ProximaNova-Semibold";
+
+$follBak: Arial, Helvetica, sans-serif;
+$defaultFonts: $defaultFont, $follBak;
+$secondaryFonts: $secondaryFont, $follBak;
+
+// цвет
+$white: #fff;
+$scorpion: #665f60;
+$bianca: #fefefb;
+
+$defaultFontSize: 18px;
+$defaultFontWeight: 300;
+$defaultLineHeight: 1.625;
+$defaultFontColor: $scorpion;
+$defaultBackgroundColor: $white;
+
+// menu
+$menuFontSize: 24px;
+$menuColor: $white;
+
+//title
+$titleFontSize: 36px;
+$titleColor: $bianca;
+$titleFontSizeH1: 72px;
+$titleLineHeight: 60px;
+$subtitleColor: $bianca;
+$subtitleFontSize: 30px;
+
+$breack-points-lg: 992px;
+$breack-points-md: 768px;
+$breack-points-sm: 576px;

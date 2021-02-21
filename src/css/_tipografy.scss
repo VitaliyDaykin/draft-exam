@@ -1,0 +1,35 @@
+@include fontFace($defaultFont, $defaultPath);
+@include fontFace($defaultFont, $defaultPathBold, 700);
+@include fontFace($defaultFont, $defaultPathItalik, 400);
+@include fontFace($secondaryFont, $secondaryPathBold, 700);
+@include fontFace($secondaryFont, $secondaryPathSemibold, 600);
+
+.page {
+    font-family: $defaultFonts;
+    font-size: $defaultFontSize;
+    font-weight: $defaultFontWeight;
+    line-height: $defaultLineHeight;
+    color: $defaultFontColor;
+    background-color: $defaultBackgroundColor;
+}
+
+.title {
+    color: $titleColor;
+    font-size: $titleFontSize;
+    font-family: $secondaryFonts;
+    font-weight: 600;
+    text-transform: uppercase;
+    &__h1 {
+        font-size: $titleFontSizeH1;
+        font-weight: 700;
+    }
+}
+
+.subtitle {
+    font-family: $defaultFonts;
+    font-size: $subtitleFontSize;
+    color: $subtitleColor;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 1;
+}
