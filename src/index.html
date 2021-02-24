@@ -8,17 +8,17 @@
 
 <body class="page">
     <header class="header">
+        <div class="container ">
+            <div class="header__container">
+                <a href="" class="logo__link">
+                    <img src="./image/logo.svg" alt="logo" class="logo__img">
+                </a>
 
-        <div class="container header__container">
-            <div class="row">
-                <div class="col-2 header__container-logo logo">
-                    <a href="" class="logo__link">
-                        <img src="./image/logo.svg" alt="logo" class="logo__img">
+                <nav class="header__blok-menu">
+                    <a class="menu-burger-btn">
+                        <span></span>
                     </a>
-                </div>
-                <nav class="col-10 header__blok-menu">
-                    <a href="#" class="menu-burger-btn menu-burger-btn__active "><span></span></a>
-                    <ul class="menu__list menu__list__active">
+                    <ul class="menu__list">
                         <li class="menu__item">
                             <a href="#" class="menu__link">Home</a>
                         </li>
@@ -46,7 +46,7 @@
                 <div class="row">
                     <div class="col-12 title-block__wrapp">
                         <h1 class="title title__h1">CreativE DIGITAL Project</h1>
-                        <p class="subtitle">Duis mollis, est non commodo luctus,
+                        <p class="subtitle title-block__subtitle">Duis mollis, est non commodo luctus,<br>
                             nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
                     </div>
                 </div>
@@ -55,82 +55,71 @@
         <section class="main__block about-as">
             <div class="container">
                 <div class="row">
-                    <div class="col-5 about-as__subdivision">
-                        <img src="./image/icon_aboutus.png" alt="" class="about-as__subdivision__img">
-                        <a href="#" class="title">About Us</a>
+                    <div class="col-5">
+                        <div class="about-as__subdivision">
+                            <img src="./image/icon_aboutus.png" alt="" class="about-as__subdivision-img">
+                            <h2 class="title title__h2">About Us</h2>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div class="col-7 about-as__description">
-                <p class="text">Nullam quis risus eget urna mollis ornare vel eu leo. Donec id elit non mi
-                    porta gravida at eget metus. Donec ullamcorper nulla non metus auctor fringilla. Vivamus
-                    sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
-
-                    Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Vivamus sagittis lacus vel
-                    augue laoreet rutrum faucibus dolor auctor. Aenean eu leo quam. Pellentesque ornare sem
-                    lacinia quam venenatis vestibulum. Maecenas faucibus mollis interdum. Cras mattis
-                    consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.</p>
-                <p class="text">Nullam quis risus eget urna mollis ornare vel eu leo. Donec id elit non mi
-                    porta gravida at eget metus. Donec ullamcorper nulla non metus auctor fringilla. Vivamus
-                    sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
-
-                    Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Vivamus sagittis lacus vel
-                    augue laoreet rutrum faucibus dolor auctor. Aenean eu leo quam. Pellentesque ornare sem
-                    lacinia quam venenatis vestibulum. Maecenas faucibus mollis interdum. Cras mattis
-                    consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.</p>
-                <div class="about-as__buttom">
-                    <a href="#" class="buttom">Learn More</a>
+                    <div class="col-7 about-as__description">
+                        <p class="text text__about-as">
+                            Nullam quis risus eget urna <strong class="bold">mollis ornare</strong> vel eu leo. Donec id
+                            elit non mi
+                            porta gravida at eget metus. Donec ullamcorper nulla non metus auctor fringilla. Vivamus
+                            sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
+                        </p>
+                        <p class="text text__about-as">
+                            <strong class="bold">Morbi leo risus,</strong> porta ac consectetur ac, vestibulum at eros.
+                            Vivamus
+                            sagittis lacus vel
+                            augue laoreet rutrum faucibus dolor auctor. Aenean eu leo quam. Pellentesque ornare sem
+                            lacinia quam venenatis vestibulum. Maecenas faucibus mollis interdum. Cras mattis
+                            consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.
+                        </p>
+                        <div class="about-as__buttom">
+                            <a href="#" class="button">Learn More</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
         <section class="main__block our-services">
             <div class="container">
                 <div class="row">
-                    <div class="col-8">
-                        <div class="our-services__graphic-design graphic-design">
-                            <div class="graphic-design__img-wrapp">
-                                <img src="./image/icon_graphic.png" alt="graphic-design" class="graphic-design__img">
-                                <h3 class="titel">graphic design</h3>
-                                <p class="text">Cras mattis consectetur purus sit amet fermentum.</p>
+                    <div class="our-services__wrapper">
+                        <div class="our-services__departments">
+                            <div class="our-services__item">
+                                <img src="./image/icon_graphic.png" alt="graphic-design" class="our-services__img">
+                                <h3 class="title title__h3 our-services__title">graphic design</h3>
+                                <p class="text">Cras mattis consectetur<br>purus sit amet fermentum.</p>
+                            </div>
+                            <div class="our-services__item">
+                                <img src="./image/icon_seo.png" alt="web-development" class="our-services__img">
+                                <h3 class="title title__h3 our-services__title">seo & marketing</h3>
+                                <p class="text">Cras mattis consectetur<br>purus sit amet fermentum.</p>
+                            </div>
+                            <div class="our-services__item">
+                                <img src="./image/icon_web.png" alt="web-development" class="our-services__img">
+                                <h3 class="title title__h3 our-services__title">web development</h3>
+                                <p class="text">Cras mattis consectetur<br>purus sit amet fermentum.</p>
+                            </div>
+                            <div class="our-services__item">
+                                <img src="./image/icon_mobile.png" alt="mobile-development" class="our-services__img">
+                                <h3 class="title title__h3 our-services__title">mobile development</h3>
+                                <p class="text">Cras mattis consectetur<br>purus sit amet fermentum.</p>
                             </div>
                         </div>
-                        <div class="services__seo-marketing seo-marketing">
-                            <div class="our-seo-marketing__img-wrapp">
-                                <img src="./image/icon_seo.png" alt="web-development" class="seo-marketing__img">
-                                <h3 class="titel">seo & marketing</h3>
-                                <p class="text">Cras mattis consectetur purus sit amet fermentum.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-4">
-                        <div class="our-services__web-development web-development">
-                            <div class="web-development__img-wrapp">
-                                <img src="./image/icon_web.png" alt="web-development" class="web-development__img">
-                                <h3 class="titel">web development</h3>
-                                <p class="text">Cras mattis consectetur purus sit amet fermentum.</p>
-                            </div>
-                        </div>
-                        <div class="our-services__mobile-development mobile-development">
-                            <div class="mobile-development__img-wrapp">
-                                <img src="./image/icon_mobile.png" alt="mobile-development"
-                                    class="mobile-development__img">
-                                <h3 class="titel">mobile development</h3>
-                                <p class="text">Cras mattis consectetur purus sit amet fermentum.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-4">
-                        <div class="our-services__our-services-title our-services">
-                            <div class="our-services-title__img-wrapp">
-                                <img src="./image/icon_services.png" alt="our-services" class="our-services-title__img">
-                                <h3 class="titel">our services</h3>
-                                <blockquote class="our-services-title__blockquote">
-                                    <p class="text">“Nullam quis risus eget urna mollis ornare vel eu leo. Nulla vitae
-                                        elit
-                                        libero, a pharetra augue.”</p>
-                                    <p class="text text_borat">Borat</p>
-                                </blockquote>
-                            </div>
+                        <div class="our-services-title-department">
+                            <img src="./image/icon_services.png" alt="our-services"
+                                class="our-services__img-department">
+                            <h3 class="title our-services__title-department">our services</h3>
+                            <p class="text text_borat">“Nullam quis risus eget urna mollis ornare vel<br>eu leo. Nulla
+                                vitae
+                                elit
+                                libero, a pharetra augue.”</p>
+                            <p class="text text_borat">
+                                <strong class="bold">-Borat-</strong>
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -143,21 +132,23 @@
                         <div class="recent-works__img-wrapp">
                             <img src="./image/icon_works.png" alt="works" class="recent-works__img">
                         </div>
-                        <h2 class="title">recent works</h2>
-                        <div class="recent-works__wrapp-carousel">
-                            <img src="" alt="" class="recent-works__wrapp-carousel__img">
-                        </div>
-                        <div class="recent-works__wrapp-carousel">
-                            <img src="" alt="" class="recent-works__wrapp-carousel__img">
-                        </div>
-                        <div class="recent-works__wrapp-carousel">
-                            <img src="" alt="" class="recent-works__wrapp-carousel__img">
-                        </div>
-                        <div class="recent-works__wrapp-carousel">
-                            <img src="" alt="" class="recent-works__wrapp-carousel__img">
+                        <h2 class="title recent-works__title">recent works</h2>
+                        <div class="carousel">
+                            <div class="wrapp-carousel">
+                                <img src="./image/carousel_img.png" alt="carousel" class="wrapp-carousel__img">
+                            </div>
+                            <div class="wrapp-carousel">
+                                <img src="./image/carousel_img.png" alt="" class="wrapp-carousel__img">
+                            </div>
+                            <div class="wrapp-carousel">
+                                <img src="./image/carousel_img.png" alt="" class="wrapp-carousel__img">
+                            </div>
+                            <div class="wrapp-carousel">
+                                <img src="./image/carousel_img.png" alt="" class="wrapp-carousel__img">
+                            </div>
                         </div>
                         <div class="recent-works__button">
-                            <a href="#" class="button">View Gallery</a>
+                            <a href="#" class="button button__recent-work">View Gallery</a>
                         </div>
                     </div>
                 </div>
@@ -170,7 +161,159 @@
                         <div class="our-team__img-wrapp">
                             <img src="./image/icon_team.png" alt="team" class="our-team__img">
                         </div>
-                        <h2 class="titel">meet our team</h2>
+                        <h2 class="title title__h2">meet our team</h2>
+                    </div>
+                    <div class="staff-list">
+                        <div class="staff-wrapper">
+                            <div class="staff-item">
+                                <img src="./image/ellipse1.png" alt="ellipse" class="staff-item__img">
+                                <div class="staff-item__card">
+                                    <h3 class="title title_staff-list staff-item__title">Miguel Obrien</h3>
+                                    <p class="text text__staff-item staff-item__text">CEO & Founder</p>
+                                </div>
+                                <div class="staff-item__social">
+                                    <a href="#" class="staff-item__link">
+                                        <img src="./image/linked_in.svg" alt="linked" class="staff-item__svg">
+                                    </a>
+                                    <a href="#" class="staff-item__link">
+                                        <img src="./image/google.svg" alt="google" class="staff-item__svg">
+                                    </a>
+                                    <a href="#" class="staff-item__link">
+                                        <img src="./image/facebookk.svg" alt="facebook" class="staff-item__svg">
+                                    </a>
+                                    <a href="#" class="staff-item__link">
+                                        <img src="./image/twitterr.svg" alt="twitter" class="staff-item__svg">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="staff-wrapper">
+                            <div class="staff-item">
+                                <img src="./image/ellipse2.png" alt="ellipse" class="staff-item__img">
+                                <div class="staff-item__card">
+                                    <h3 class="title title_staff-list staff-item__title">Jackie Carroll</h3>
+                                    <p class="text text__staff-item staff-item__text">Art Director</p>
+                                </div>
+                                <div class="staff-item__social staff-item__social_behance ">
+                                    <a href="#" class="staff-item__link">
+                                        <img src="./image/behance.svg" alt="behance" class="staff-item__svg">
+                                    </a>
+                                    <a href="#" class="staff-item__link">
+                                        <img src="./image/linked_in.svg" alt="linked" class="staff-item__svg">
+                                    </a>
+                                    <a href="#" class="staff-item__link">
+                                        <img src="./image/google.svg" alt="google" class="staff-item__svg">
+                                    </a>
+                                    <a href="#" class="staff-item__link">
+                                        <img src="./image/facebookk.svg" alt="facebook" class="staff-item__svg">
+                                    </a>
+                                    <a href="#" class="staff-item__link">
+                                        <img src="./image/twitterr.svg" alt="twitter" class="staff-item__svg">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="staff-wrapper">
+                            <div class="staff-item">
+                                <img src="./image/ellipse3.png" alt="ellipse" class="staff-item__img">
+                                <div class="staff-item__card">
+                                    <h3 class="title title_staff-list staff-item__title">Ida Morrison</h3>
+                                    <p class="text text__staff-item staff-item__text">Designer</p>
+                                </div>
+                                <div class="staff-item__social staff-item__social_behance">
+                                    <a href="#" class="staff-item__link">
+                                        <img src="./image/behance.svg" alt="behance" class="staff-item__svg">
+                                    </a>
+                                    <a href="#" class="staff-item__link">
+                                        <img src="./image/linked_in.svg" alt="linked" class="staff-item__svg">
+                                    </a>
+                                    <a href="#" class="staff-item__link">
+                                        <img src="./image/google.svg" alt="google" class="staff-item__svg">
+                                    </a>
+                                    <a href="#" class="staff-item__link">
+                                        <img src="./image/facebookk.svg" alt="facebook" class="staff-item__svg">
+                                    </a>
+                                    <a href="#" class="staff-item__link">
+                                        <img src="./image/twitterr.svg" alt="twitter" class="staff-item__svg">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="staff-wrapper">
+                            <div class="staff-item">
+                                <img src="./image/ellipse1.png" alt="ellipse" class="staff-item__img">
+                                <div class="staff-item__card">
+                                    <h3 class="title title_staff-list staff-item__title">Miguel Obrien</h3>
+                                    <p class="text text__staff-item staff-item__text">CEO & Founder</p>
+                                </div>
+                                <div class="staff-item__social">
+                                    <a href="#" class="staff-item__link">
+                                        <img src="./image/linked_in.svg" alt="linked" class="staff-item__svg">
+                                    </a>
+                                    <a href="#" class="staff-item__link">
+                                        <img src="./image/google.svg" alt="google" class="staff-item__svg">
+                                    </a>
+                                    <a href="#" class="staff-item__link">
+                                        <img src="./image/facebookk.svg" alt="facebook" class="staff-item__svg">
+                                    </a>
+                                    <a href="#" class="staff-item__link">
+                                        <img src="./image/twitterr.svg" alt="twitter" class="staff-item__svg">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="staff-wrapper">
+                            <div class="staff-item">
+                                <img src="./image/ellipse2.png" alt="ellipse" class="staff-item__img">
+                                <div class="staff-item__card">
+                                    <h3 class="title title_staff-list staff-item__title">Jackie Carroll</h3>
+                                    <p class="text text__staff-item staff-item__text">Art Director</p>
+                                </div>
+                                <div class="staff-item__social staff-item__social_behance ">
+                                    <a href="#" class="staff-item__link">
+                                        <img src="./image/behance.svg" alt="behance" class="staff-item__svg">
+                                    </a>
+                                    <a href="#" class="staff-item__link">
+                                        <img src="./image/linked_in.svg" alt="linked" class="staff-item__svg">
+                                    </a>
+                                    <a href="#" class="staff-item__link">
+                                        <img src="./image/google.svg" alt="google" class="staff-item__svg">
+                                    </a>
+                                    <a href="#" class="staff-item__link">
+                                        <img src="./image/facebookk.svg" alt="facebook" class="staff-item__svg">
+                                    </a>
+                                    <a href="#" class="staff-item__link">
+                                        <img src="./image/twitterr.svg" alt="twitter" class="staff-item__svg">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="staff-wrapper">
+                            <div class="staff-item">
+                                <img src="./image/ellipse3.png" alt="ellipse" class="staff-item__img">
+                                <div class="staff-item__card">
+                                    <h3 class="title title_staff-list staff-item__title">Ida Morrison</h3>
+                                    <p class="text text__staff-item staff-item__text">Designer</p>
+                                </div>
+                                <div class="staff-item__social staff-item__social_behance">
+                                    <a href="#" class="staff-item__link">
+                                        <img src="./image/behance.svg" alt="behance" class="staff-item__svg">
+                                    </a>
+                                    <a href="#" class="staff-item__link">
+                                        <img src="./image/linked_in.svg" alt="linked" class="staff-item__svg">
+                                    </a>
+                                    <a href="#" class="staff-item__link">
+                                        <img src="./image/google.svg" alt="google" class="staff-item__svg">
+                                    </a>
+                                    <a href="#" class="staff-item__link">
+                                        <img src="./image/facebookk.svg" alt="facebook" class="staff-item__svg">
+                                    </a>
+                                    <a href="#" class="staff-item__link">
+                                        <img src="./image/twitterr.svg" alt="twitter" class="staff-item__svg">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

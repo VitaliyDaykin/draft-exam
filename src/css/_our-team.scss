@@ -1,0 +1,50 @@
+.our-team {
+    background-color: $secondaryBackgroundColor;
+}
+
+.staff-wrapper {
+    padding: 15px;
+}
+
+.staff-item {
+    &__img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    &__card {
+        background-color: $white;
+        text-align: center;
+        margin-top: -124px;
+    }
+
+    &__title {
+        padding-top: 163px;
+    }
+
+    &__text {
+        padding: 34px 0 50px;
+    }
+
+    &__social {
+        background-color: $blueBell;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 17px 90px 9px;
+        margin-bottom: 80px;
+
+        &_behance {
+            padding: 17px 44px 9px;
+        }
+    }
+
+    &__link:not(:first-child) {
+        padding-left: 10px;
+    }
+
+    &__svg:hover {
+        display: block;
+        background-color: $blueBell;
+    }
+}

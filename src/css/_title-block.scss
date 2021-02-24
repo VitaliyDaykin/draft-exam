@@ -1,14 +1,18 @@
-.main {
-    &__title-block {
-        background-image: url(../image/title.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 100vh;
-        min-height: 550px;
-        display: flex;
-        align-items: center;
+.title-block {
+    background-image: url(../image/title.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    min-height: 550px;
+    display: flex;
+    align-items: center;
+
+    &__wrapp {
+        margin: 0 auto;
+        text-align: center;
     }
-}
-.title-block__wrapp {
-    margin: 0 auto;
+
+    &__subtitle {
+        padding-top: 10px;
+    }
 }

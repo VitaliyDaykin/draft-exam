@@ -1,0 +1,28 @@
+.about-as {
+    background-color: $secondaryBackgroundColor;
+    padding: 122px 0;
+    &__subdivision {
+        background-image: url(../image/Bg-about-as.png);
+        background-repeat: no-repeat;
+        height: 100%;
+        min-height: 555px;
+        max-width: 380px;
+        padding: 75px 0;
+        text-align: center;
+    }
+
+    &__subdivision-img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    &__description {
+    }
+
+    &__buttom {
+        margin-top: 93px;
+    }
+}
+.about-as__description .text__about-as:first-child {
+    padding: 70px 0 25px;
+}

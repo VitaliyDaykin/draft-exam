@@ -15,12 +15,17 @@ $secondaryFonts: $secondaryFont, $follBak;
 $white: #fff;
 $scorpion: #665f60;
 $bianca: #fefefb;
+$gallery: #ebebeb;
+$blueBell: #9f9acf;
+$suvaGray: #7d7a7c;
+$alto: #dbdbdb;
 
 $defaultFontSize: 18px;
 $defaultFontWeight: 300;
 $defaultLineHeight: 1.625;
 $defaultFontColor: $scorpion;
 $defaultBackgroundColor: $white;
+$secondaryBackgroundColor: $gallery;
 
 // menu
 $menuFontSize: 24px;
@@ -33,7 +38,20 @@ $titleFontSizeH1: 72px;
 $titleLineHeight: 60px;
 $subtitleColor: $bianca;
 $subtitleFontSize: 30px;
+$titleFontSizeH3: 24px;
+$titleColorH3: $scorpion;
+
+//buttom
+$borderButtom: 1px solid $suvaGray;
+$buttomTextColor: $suvaGray;
+
+//text
+$textFontSize: 20px;
 
 $breack-points-lg: 992px;
 $breack-points-md: 768px;
 $breack-points-sm: 576px;
+
+//slick
+$slickColor: $gallery;
+$slickBorder: 1px solid $gallery;

@@ -1,0 +1,88 @@
+.recent-works {
+    background-image: url(../image/works_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &__img-wrapp {
+        margin-top: 50px;
+    }
+
+    &__img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    &__title {
+        text-align: center;
+        margin: 25px 0 50px;
+    }
+
+    &__button {
+        margin: 45px 0 60px;
+    }
+}
+
+.wrapp-carousel {
+    &__img {
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+.slick-dots {
+    display: flex;
+}
+
+.carousel button {
+    font-size: 0;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.carousel .slick-prev,
+.carousel .slick-next {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    cursor: pointer;
+
+    &::after {
+        width: 29px;
+        height: 29px;
+        border-left: $slickBorder;
+        border-bottom: $slickBorder;
+        content: "";
+        display: block;
+        transform: rotate(-135deg);
+    }
+}
+
+.carousel .slick-next {
+    transform: rotate(180deg);
+}
+
+.carousel li {
+    width: 10px;
+    height: 10px;
+    border: $slickBorder;
+    border-radius: 50%;
+    cursor: pointer;
+
+    &:hover {
+        background-color: $gallery;
+    }
+
+    &.slick-active {
+        background-color: $gallery;
+    }
+}
+
+.carousel > .slick-dots {
+    width: 60px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+}

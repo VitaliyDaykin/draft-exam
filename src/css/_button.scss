@@ -1,0 +1,19 @@
+.button {
+    width: 195px;
+    height: 50px;
+    border: $borderButtom;
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+    color: $buttomTextColor;
+    font-family: $defaultFonts;
+    font-size: $textFontSize;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 1.2;
+    text-decoration: none;
+    margin: 0 auto;
+    &__recent-work {
+        color: $white;
+    }
+}

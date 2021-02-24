@@ -1,6 +1,15 @@
-const burgerButton = document.querySelector(".menu-burger-btn");
-console.log(burgerButton);
+$(document).ready(function () {
+    $(".menu-burger-btn").click(function (event) {
+        $(".menu-burger-btn, .menu__list").toggleClass("active");
+    });
+});
 
-burgerButton.addEventListener("click", function (event) {
-    console.log(event, this);
+$(".carousel").slick({
+    dots: true,
+});
+
+$(".staff-list").slick({
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
 });

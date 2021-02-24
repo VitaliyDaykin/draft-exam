@@ -1,4 +1,4 @@
-@include fontFace($defaultFont, $defaultPath);
+@include fontFace($defaultFont, $defaultPath, 400);
 @include fontFace($defaultFont, $defaultPathBold, 700);
 @include fontFace($defaultFont, $defaultPathItalik, 400);
 @include fontFace($secondaryFont, $secondaryPathBold, 700);
@@ -19,8 +19,29 @@
     font-family: $secondaryFonts;
     font-weight: 600;
     text-transform: uppercase;
+
     &__h1 {
         font-size: $titleFontSizeH1;
+        font-weight: 700;
+    }
+
+    &__h2 {
+        line-height: 47px;
+        padding: 44px 0;
+    }
+
+    &__h3 {
+        font-family: $defaultFonts;
+        font-size: $titleFontSizeH3;
+        line-height: 1.2;
+        font-weight: 700;
+        color: $titleColorH3;
+    }
+
+    &_staff-list {
+        font-size: $menuFontSize;
+        color: $blueBell;
+        line-height: 1.2;
         font-weight: 700;
     }
 }
@@ -32,4 +53,31 @@
     font-weight: 400;
     font-style: italic;
     line-height: 1;
+}
+
+.text {
+    &__about-as {
+        font-family: $defaultFonts;
+        font-size: $textFontSize;
+        font-weight: 400;
+        font-style: italic;
+        line-height: 1.2;
+    }
+    &_borat {
+        color: $titleColor;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 1.2;
+    }
+
+    &__staff-item {
+        font-family: $defaultFonts;
+        font-size: $menuFontSize;
+        line-height: 1.2;
+        font-weight: 400;
+        font-style: italic;
+    }
+}
+.bold {
+    font-weight: 700;
 }

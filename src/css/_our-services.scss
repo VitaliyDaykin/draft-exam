@@ -1,0 +1,52 @@
+.our-services {
+    background-color: $secondaryBackgroundColor;
+
+    &__wrapper {
+        display: flex;
+    }
+
+    &__img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    &__img-department {
+        margin-top: 110px;
+        margin-bottom: 20px;
+    }
+
+    &__departments {
+        display: flex;
+        flex-wrap: wrap;
+        width: 66.66%;
+    }
+
+    &__title {
+        margin: 20px 0 10px;
+    }
+
+    &__title-department {
+        margin-bottom: 100px;
+    }
+
+    &__item {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        &:nth-child(3n + 1) {
+            background-color: $alto;
+        }
+    }
+}
+.our-services-title-department {
+    width: 33.33%;
+    height: 799px;
+    background-image: url(../image/our-servicesBG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
